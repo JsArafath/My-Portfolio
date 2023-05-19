@@ -541,22 +541,43 @@ img {
 
 
 
-.colorr{
-    background-color: aqua;
-}
+
 .scroll-item{
     position: relative;
-    height: 400px;
+    height: 260px;
     /* overflow: hidden; */
     /* box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75); */
   }
   .scroll-item:nth-child(2){
-    background: url(/assets/img/projects//01/scroll-1.png);
+    background: url(/assets/img/projects//02/scroll-2.png);
     background-size: cover;
     background-position: top;
     transition: 10s;
   }
- 
+  .scroll-item:nth-child(3){
+    background: url(/assets/img/projects/02/seller\ dashboard.png);
+    background-size: cover;
+    background-position: top;
+    transition: 2s;
+  }
+  .scroll-item:nth-child(5){
+    background: url(/assets/img/projects/02/buyer-dashboard.png);
+    background-size: cover;
+    background-position: top;
+    transition: 5s;
+  }
+  .scroll-item:nth-child(7){
+    background: url(/assets/img/projects/02/all\ catagories.png);
+    background-size: cover;
+    background-position: top;
+    transition: 2s;
+  }
+  .scroll-item:nth-child(9){
+    background: url(/assets/img/projects/02/payment\ .png);
+    background-size: cover;
+    background-position: top;
+    transition: 2s;
+  }
 
   .scroll-item:hover .icons{
     bottom: 0;

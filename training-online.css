@@ -541,22 +541,32 @@ img {
 
 
 
-.colorr{
-    background-color: aqua;
-}
+
 .scroll-item{
     position: relative;
-    height: 400px;
+    height: 280px;
     /* overflow: hidden; */
     /* box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75); */
   }
   .scroll-item:nth-child(2){
-    background: url(/assets/img/projects//01/scroll-1.png);
+    background: url(/assets/img/projects/04/scroll.png);
     background-size: cover;
     background-position: top;
     transition: 10s;
   }
- 
+  /* .scroll-item:nth-child(3){
+    background: url(/assets/img/projects/03/services.png);
+    background-size: cover;
+    background-position: top;
+    transition: 2s;
+  }
+  .scroll-item:nth-child(5){
+    background: url(/assets/img/projects/03/review.png);
+    background-size: cover;
+    background-position: top;
+    transition: 5s;
+  } */
+
 
   .scroll-item:hover .icons{
     bottom: 0;
