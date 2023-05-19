@@ -544,7 +544,7 @@ img {
 
 .scroll-item{
     position: relative;
-    height: 260px;
+    height: 400px;
     /* overflow: hidden; */
     /* box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75); */
   }
@@ -554,30 +554,7 @@ img {
     background-position: top;
     transition: 10s;
   }
-  .scroll-item:nth-child(3){
-    background: url(/assets/img/projects/02/seller\ dashboard.png);
-    background-size: cover;
-    background-position: top;
-    transition: 2s;
-  }
-  .scroll-item:nth-child(5){
-    background: url(/assets/img/projects/02/buyer-dashboard.png);
-    background-size: cover;
-    background-position: top;
-    transition: 5s;
-  }
-  .scroll-item:nth-child(7){
-    background: url(/assets/img/projects/02/all\ catagories.png);
-    background-size: cover;
-    background-position: top;
-    transition: 2s;
-  }
-  .scroll-item:nth-child(9){
-    background: url(/assets/img/projects/02/payment\ .png);
-    background-size: cover;
-    background-position: top;
-    transition: 2s;
-  }
+
 
   .scroll-item:hover .icons{
     bottom: 0;
